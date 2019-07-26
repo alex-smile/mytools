@@ -1,2 +1,4 @@
-# pytools
-Some powerful tools by python
+# mytools
+=========
+
+Some powerful scripts and tools
