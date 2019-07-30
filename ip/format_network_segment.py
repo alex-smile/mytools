@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#@Author: alex-smile
-#@Date: 20190726
+# @author: alex-smile
+# @date: 20190726
 
 import sys
 import socket
