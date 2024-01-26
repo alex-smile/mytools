@@ -35,7 +35,7 @@ def get_fpath_list(file_list):
                 for filename in files:
                     fpath_list.append(os.path.join(root, filename))
         else:
-            print "not file or dir: {}".format(fpath)
+            print("not file or dir: {}".format(fpath))
     return fpath_list
 
 
@@ -43,7 +43,7 @@ def contain_chinese(file_list):
     fpath_list = get_fpath_list(file_list)
     for fpath in fpath_list:
         if is_file_contain_chinese(fpath):
-            print "file contain chinese: {}".format(fpath)
+            print("file contain chinese: {}".format(fpath))
 
 
 if __name__ == "__main__":
